@@ -1,0 +1,11 @@
+extends Node
+
+
+func _ready():
+	var players = {
+		"David": 1,
+		"Villiam": 15,
+		"Ali": 97,
+	}
+	
+	print(players["Ali"])
